@@ -1,0 +1,29 @@
+[
+  {
+    "id": "alquileres",
+    "imageSrc": "./alquileres3.png",
+    "title": "Alquileres Temporales",
+    "stack": ["C#", "C#", "C#"],
+    "desc": "asd",
+    "deploy": "asd",
+    "source": "asd"
+  },
+  {
+    "id": "caballcalabdra",
+    "imageSrc": "./CCDMenu.png",
+    "title": "Caballeros Dragones Calabozos",
+    "stack": ["C#", "C#", "C#"],
+    "desc": "asd",
+    "deploy": "asd",
+    "source": "asd"
+  },
+  {
+    "id": "tiroFlecha",
+    "imageSrc": "./tiro2.png",
+    "title": "Torneo Tiro con Flecha",
+    "stack": ["C#", "C#", "C#"],
+    "desc": "asd",
+    "deploy": "asd",
+    "source": "asd"
+  }
+]
