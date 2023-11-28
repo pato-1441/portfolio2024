@@ -1,20 +1,20 @@
-import { Github, SquareCode, Linkedin } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 const Nav = () => {
   return (
     <header className="w-full flex items-center justify-between py-6">
       <div className="flex items-center gap-4">
         <h1 className="font-semibold flex gap-2 items-center">
-          <SquareCode size={24} />
-          <p className="text-lg flex">
-            <span>P</span>
-            <span>A</span>
-          </p>
+          <img
+            src="https://avatars.githubusercontent.com/u/83987715?v=4"
+            alt="patricio albornoz picture"
+            className="w-10 rounded-full"
+          />
         </h1>
       </div>
       <div className="flex items-center gap-4">
         <a
-          className="transition-all duration-150 hover:scale-105 text-sm py-1 px-3 rounded-full border border-gray-200"
+          className="transition-all duration-150 hover:scale-105 text-sm py-1 px-3 rounded-full border border-gray-200 hover:shadow-white hover:shadow-button"
           href="mailto:pwalbornoz@gmail.com"
           rel="noreferrer noopener"
         >
