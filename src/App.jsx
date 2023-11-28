@@ -2,8 +2,8 @@ import Nav from "./components/nav/Nav";
 
 function App() {
   return (
-    <div>
-      <div className="h-screen bg-black flex flex-col text-white">
+    <div className="bg-black">
+      <div className="container mx-auto px-4 sm:px-24 h-screen flex flex-col text-white">
         <Nav />
         <main className="flex-1 bg-gray-900">
           <section className="text-center">

@@ -2,13 +2,14 @@ import { Github, SquareCode, Linkedin } from "lucide-react";
 
 const Nav = () => {
   return (
-    <header className="w-full flex items-center justify-between p-4">
+    <header className="w-full flex items-center justify-between py-6">
       <div className="flex items-center gap-4">
-        <h1 className="font-semibold flex gap-2">
-          <span>
-            <SquareCode />
-          </span>
-          Patricio Albornoz
+        <h1 className="font-semibold flex gap-2 items-center">
+          <SquareCode size={24} />
+          <p className="text-lg flex">
+            <span>P</span>
+            <span>A</span>
+          </p>
         </h1>
       </div>
       <div className="flex items-center gap-4">
