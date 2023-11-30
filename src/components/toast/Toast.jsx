@@ -29,7 +29,12 @@ const Toast = ({ tech }) => {
   };
 
   return (
-    <div className={"py-0.5 rounded-md px-1 text-xs uppercase " + getColor()}>
+    <div
+      className={
+        "font-medium py-0.5 rounded-md px-1.5 text-[0.7rem] uppercase " +
+        getColor()
+      }
+    >
       {tech}
     </div>
   );

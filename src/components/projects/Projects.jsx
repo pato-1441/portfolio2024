@@ -20,7 +20,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className="grid grid-cols-1 gap-8 mt-12 sm:mt-48 md:grid-cols-2 xl:grid-cols-3">
+    <section className="grid grid-cols-1 gap-8 mt-24 sm:mt-48 md:grid-cols-2 xl:grid-cols-3">
       {projects &&
         projects.map((project) => {
           return <Card key={project.id} {...project} />;

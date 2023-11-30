@@ -8,24 +8,30 @@ const Card = ({ imageSrc, title, stack, desc, deploy, source }) => {
         alt="project image"
         className="rounded-t-xl w-full h-60"
       />
-      <div className="p-4 flex flex-col gap-2 bg-neutral-900 rounded-b-xl h-full">
-        <p className="font-medium text-xl">{title}</p>
-        <div className="flex gap-2">
-          {stack.map((tech, index) => (
-            <Toast tech={tech} key={index} />
-          ))}
+      <div className="p-4 flex flex-col justify-between gap-2 bg-neutral-900 rounded-b-xl h-full">
+        <div className="flex flex-col gap-2">
+          <p className="font-medium text-xl">{title}</p>
+          <div className="flex gap-2">
+            {stack.map((tech, index) => (
+              <Toast tech={tech} key={index} />
+            ))}
+          </div>
+          <p className="text-base whitespace-pre-line">{desc}</p>
         </div>
-        <p>{desc}</p>
-        <div className="flex items-center gap-2 mt-4">
+        <div className="flex items-center gap-4 mt-4">
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={deploy}
-            className="flex w-fit items-center transition-all duration-150 sm:text-base font-medium px-3 py-1.5 rounded-xl border border-white hover:shadow-white hover:shadow-button"
+            className="flex w-fit items-center transition-all duration-150 text-base font-medium px-2 py-1 rounded-lg text-black bg-white border border-white hover:shadow-black hover:shadow-button"
           >
             Web
           </a>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={source}
-            className="flex w-fit items-center transition-all duration-150 sm:text-base font-medium px-3 py-1.5 rounded-xl border border-white hover:shadow-white hover:shadow-button"
+            className="flex w-fit items-center transition-all duration-150 text-base font-medium px-2 py-1 rounded-lg border border-white hover:shadow-white hover:shadow-button"
           >
             Github
           </a>

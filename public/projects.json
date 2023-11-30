@@ -1,29 +1,29 @@
 [
   {
-    "id": "alquileres",
+    "id": "1",
     "imageSrc": "./alquileres3.webp",
     "title": "Alquileres Temporales",
     "stack": ["C#", ".NET", "Winforms"],
-    "desc": "asd",
+    "desc": "Aplicación de escritorio diseñada para gestionar eficientemente reservas de propiedades y alquileres temporales. La aplicación incluye gráficos estadísticos que brindan información detallada sobre el porcentaje de reservas basado en el tipo de alojamiento y el número de reservas categorizado por la cantidad de huéspedes.\n\nCaracterísticas clave que incluye: Listado, adición, modificación y eliminación de propiedades. Consulta, impresión, importación y exportación de reservas.\n\nLa persistencia del sistema se garantiza mediante el uso de serialización binaria. Apartado de búsqueda de alojamiento que permiten a los usuarios aplicar filtros y características específicas. Para mejorar la experiencia del usuario, desarrollé un sitio web que proporciona información detallada sobre el programa y su funcionamiento.",
     "deploy": "asd",
-    "source": "asd"
+    "source": "https://github.com/pato-1441/alquileresTemporales"
   },
   {
-    "id": "caballcalabdra",
+    "id": "2",
     "imageSrc": "./CCDMenu.webp",
     "title": "Caballeros Dragones Calabozos",
     "stack": ["C#", ".NET", "Winforms"],
     "desc": "asd",
     "deploy": "asd",
-    "source": "asd"
+    "source": "https://github.com/pato-1441/caballerosCalabozosDragones"
   },
   {
-    "id": "tiroFlecha",
+    "id": "3",
     "imageSrc": "./tiro2.webp",
     "title": "Torneo Tiro con Flecha",
     "stack": ["C#", ".NET", "Winforms"],
     "desc": "asd",
     "deploy": "asd",
-    "source": "asd"
+    "source": "https://github.com/pato-1441/facultad/tree/main/laboratorioI/TrabajoPracticoTresDos"
   }
 ]
