@@ -4,9 +4,9 @@ const Card = ({ imageSrc, title, stack, desc, deploy, source }) => {
       <img
         src={imageSrc}
         alt="project image"
-        className="rounded-t-xl w-full h-60 drop-shadow-lg"
+        className="rounded-t-xl w-full h-60"
       />
-      <div className="p-4 flex flex-col gap-2 bg-neutral-900 rounded-b-xl">
+      <div className="p-4 flex flex-col gap-2 bg-neutral-900 rounded-b-xl h-full">
         <p className="font-medium text-xl">{title}</p>
         <p>{stack}</p>
         <p>{desc}</p>

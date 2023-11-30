@@ -4,9 +4,9 @@ import Projects from "./components/projects/Projects";
 
 function App() {
   return (
-    <div className="bg-black min-h-screen text-white">
+    <div className="overflow-x-hidden bg-white px-4 pb-16 pt-0 text-black dark:bg-black dark:text-white sm:px-8 sm:pt-2">
       <Nav />
-      <div className="container mx-auto px-4 sm:px-24 py-4 sm:pt-24 min-h-screen">
+      <div className="mx-auto mt-12 sm:mt-20 max-w-[1400px] min-h-screen">
         <Hero />
         <Projects />
       </div>
