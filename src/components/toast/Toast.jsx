@@ -1,28 +1,38 @@
 const Toast = ({ tech }) => {
   const getColor = () => {
     switch (tech) {
-      case "tailwind":
+      case "C#":
         return "bg-blue-600 text-white";
-      case "javascript":
+      case ".NET":
+        return "bg-blue-600 text-white";
+      case "Winforms":
+        return "bg-blue-600 text-white";
+      case "Tailwind":
+        return "bg-blue-600 text-white";
+      case "Javascript":
         return "bg-yellow-600 text-black";
-      case "react":
+      case "React.js":
         return "bg-blue-600 text-black";
-      case "node.js":
+      case "Node.js":
         return "bg-green-600 text-white";
-      case "sass":
+      case "SASS":
         return "bg-pink-600 text-white";
-      case "firebase":
+      case "Firebase":
         return "bg-pink-600 text-white";
-      case "mongo":
+      case "MongoDB":
         return "bg-pink-600 text-white";
-      case "express":
-        return "orange";
+      case "Express":
+        return "bg-green-300";
       default:
         return "bg-neutral-500";
     }
   };
 
-  return <div className={"px-1 text-xs uppercase " + getColor()}>{tech}</div>;
+  return (
+    <div className={"py-0.5 rounded-md px-1 text-xs uppercase " + getColor()}>
+      {tech}
+    </div>
+  );
 };
 
 export default Toast;

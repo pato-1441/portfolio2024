@@ -1,3 +1,5 @@
+import Toast from "../toast/Toast";
+
 const Card = ({ imageSrc, title, stack, desc, deploy, source }) => {
   return (
     <div className="flex h-full flex-col rounded-xl border border-white">
@@ -8,7 +10,11 @@ const Card = ({ imageSrc, title, stack, desc, deploy, source }) => {
       />
       <div className="p-4 flex flex-col gap-2 bg-neutral-900 rounded-b-xl h-full">
         <p className="font-medium text-xl">{title}</p>
-        <p>{stack}</p>
+        <div className="flex gap-2">
+          {stack.map((tech, index) => (
+            <Toast tech={tech} key={index} />
+          ))}
+        </div>
         <p>{desc}</p>
         <div className="flex items-center gap-2 mt-4">
           <a
