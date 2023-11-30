@@ -6,7 +6,7 @@ const Card = ({ imageSrc, title, stack, desc, deploy, source }) => {
       <img
         src={imageSrc}
         alt="project image"
-        className="rounded-t-xl w-full h-60"
+        className="flex rounded-t-xl w-full h-52 min-h-52 max-h-52"
       />
       <div className="p-4 flex flex-col justify-between gap-2 bg-neutral-900 rounded-b-xl h-full">
         <div className="flex flex-col gap-2">
@@ -18,15 +18,18 @@ const Card = ({ imageSrc, title, stack, desc, deploy, source }) => {
           </div>
           <p className="text-base whitespace-pre-line">{desc}</p>
         </div>
-        <div className="flex items-center gap-4 mt-4">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={deploy}
-            className="flex w-fit items-center transition-all duration-150 text-base font-medium px-2 py-1 rounded-lg text-black bg-white border border-white hover:shadow-black hover:shadow-button"
-          >
-            Web
-          </a>
+        <div className="flex items-center gap-3 mt-4">
+          {deploy != null && (
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={deploy}
+              className="flex w-fit items-center transition-all duration-150 text-base font-medium px-2 py-1 rounded-lg text-black bg-white border border-white hover:shadow-black hover:shadow-button"
+            >
+              Web
+            </a>
+          )}
+
           <a
             target="_blank"
             rel="noopener noreferrer"

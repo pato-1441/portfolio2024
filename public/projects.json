@@ -5,7 +5,7 @@
     "title": "Alquileres Temporales",
     "stack": ["C#", ".NET", "Winforms"],
     "desc": "Aplicación de escritorio diseñada para gestionar eficientemente reservas de propiedades y alquileres temporales. La aplicación incluye gráficos estadísticos que brindan información detallada sobre el porcentaje de reservas basado en el tipo de alojamiento y el número de reservas categorizado por la cantidad de huéspedes.\n\nCaracterísticas clave que incluye: Listado, adición, modificación y eliminación de propiedades. Consulta, impresión, importación y exportación de reservas.\n\nLa persistencia del sistema se garantiza mediante el uso de serialización binaria. Apartado de búsqueda de alojamiento que permiten a los usuarios aplicar filtros y características específicas. Para mejorar la experiencia del usuario, desarrollé un sitio web que proporciona información detallada sobre el programa y su funcionamiento.",
-    "deploy": "asd",
+    "deploy": null,
     "source": "https://github.com/pato-1441/alquileresTemporales"
   },
   {
@@ -13,8 +13,8 @@
     "imageSrc": "./CCDMenu.webp",
     "title": "Caballeros Dragones Calabozos",
     "stack": ["C#", ".NET", "Winforms"],
-    "desc": "asd",
-    "deploy": "asd",
+    "desc": "Aplicación de juego de mesa conocido como Caballeros Calabozos y Dragones, está desarrollado en su totalidad con C# .NET y utiliza las ventanas de Winforms para generar la interfaz gráfica.\n\nEl juego posee tres dificultades, una versión demo y un seguimiento del ranking de puntos local. Además del desarrollo de la lógica del juego en sí, le puse un poco de vida realizando algunos diseños básicos para darle un perfil acorde al estilo del proyecto.",
+    "deploy": null,
     "source": "https://github.com/pato-1441/caballerosCalabozosDragones"
   },
   {
@@ -23,7 +23,25 @@
     "title": "Torneo Tiro con Flecha",
     "stack": ["C#", ".NET", "Winforms"],
     "desc": "asd",
-    "deploy": "asd",
+    "deploy": null,
     "source": "https://github.com/pato-1441/facultad/tree/main/laboratorioI/TrabajoPracticoTresDos"
+  },
+  {
+    "id": "4",
+    "imageSrc": "./marvel.webp",
+    "title": "Marvel Wiki",
+    "stack": ["React.js", "SCSS", "HTML"],
+    "desc": "asd",
+    "deploy": "https://marvel-project-iota.vercel.app/",
+    "source": "https://github.com/TimoteoGambella/Marvel-Project-Vercel"
+  },
+  {
+    "id": "5",
+    "imageSrc": "./alquileresWeb.webp",
+    "title": "Alquileres Temporales Web",
+    "stack": ["HTML", "Tailwind"],
+    "desc": "asd",
+    "deploy": "https://alquilerestemporarios.netlify.app/",
+    "source": "https://github.com/pato-1441/alquileresTemporales"
   }
 ]
