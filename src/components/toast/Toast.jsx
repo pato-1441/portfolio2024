@@ -13,6 +13,8 @@ const Toast = ({ tech }) => {
         return "bg-sky-500 text-white";
       case "Javascript":
         return "bg-amber-400 text-black";
+      case "Typescript":
+        return "bg-blue-400 text-white";
       case "HTML":
         return "bg-orange-500 text-white";
       case "React.js":
