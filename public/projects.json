@@ -4,7 +4,7 @@
     "imageSrc": "./alquileres3.webp",
     "title": "Alquileres Temporales",
     "stack": ["C#", ".NET", "Winforms"],
-    "desc": "Aplicación de escritorio diseñada para gestionar eficientemente reservas de propiedades y alquileres temporales. La aplicación incluye gráficos estadísticos que brindan información detallada sobre el porcentaje de reservas basado en el tipo de alojamiento y el número de reservas categorizado por la cantidad de huéspedes.\n\nCaracterísticas clave que incluye: Listado, adición, modificación y eliminación de propiedades. Consulta, impresión, importación y exportación de reservas.\n\nLa persistencia del sistema se garantiza mediante el uso de serialización binaria. Apartado de búsqueda de alojamiento que permiten a los usuarios aplicar filtros y características específicas. Para mejorar la experiencia del usuario, desarrollé un sitio web que proporciona información detallada sobre el programa y su funcionamiento.",
+    "desc": "Aplicación de escritorio diseñada para gestionar eficientemente reservas de propiedades y alquileres temporales. La aplicación incluye gráficos estadísticos que brindan información detallada sobre el porcentaje de reservas basado en el tipo de alojamiento y el número de reservas categorizado por la cantidad de huéspedes.\n\nCaracterísticas clave que incluye: Listado, adición, modificación y eliminación de propiedades. Consulta, impresión, importación y exportación de reservas.\n\nLa persistencia del sistema se garantiza mediante el uso de serialización binaria. Apartado de búsqueda de alojamiento que permiten a los usuarios aplicar filtros y características específicas.",
     "deploy": null,
     "source": "https://github.com/pato-1441/alquileresTemporales"
   },
@@ -22,7 +22,7 @@
     "imageSrc": "./tiro2.webp",
     "title": "Torneo Tiro con Flecha",
     "stack": ["C#", ".NET", "Winforms"],
-    "desc": "asd",
+    "desc": "Proyecto realizado para asignatura de la universidad, la aplicación consiste en una plataforma eficiente para cargar y gestionar competidores en un torneo de clasificación de tiro con arco.\n\nLa aplicación informa la cantidad de competidores menores y mayores de 18 años al finalizar la carga inicial. En cada ronda, se muestra el nombre de cada jugador según el orden de inscripción y al finalizar la misma, se proporciona información detallada sobre el ganador, segundo y tercer puesto, incluyendo nombre, puntaje y cantidad de centros.",
     "deploy": null,
     "source": "https://github.com/pato-1441/facultad/tree/main/laboratorioI/TrabajoPracticoTresDos"
   },
@@ -31,7 +31,7 @@
     "imageSrc": "./marvel.webp",
     "title": "Marvel Wiki",
     "stack": ["React.js", "SCSS", "HTML"],
-    "desc": "asd",
+    "desc": "Trata de un sitio web que muestra los personajes, comics y series de Marvel. Para lograr esto, nos conectamos a la API oficial y recuperamos los datos.\n\nEn el sitio podemos navegar entre las diferentes categorías, podemos navegar a través de la paginación de las categorías, visualizamos las cards de 'personajes', 'comics' y 'series', obtenemos las descripciones y detalles de cada una de las producciones, así como también, se implementa un carrousel con los últimos lanzamientos. Contiene las siguientes integraciones: - Material UI - Router-Dom - Sass - Swiper - Loaders - API de Marvel.",
     "deploy": "https://marvel-project-iota.vercel.app/",
     "source": "https://github.com/TimoteoGambella/Marvel-Project-Vercel"
   },
@@ -40,7 +40,7 @@
     "imageSrc": "./alquileresWeb.webp",
     "title": "Alquileres Temporales Web",
     "stack": ["HTML", "Tailwind"],
-    "desc": "asd",
+    "desc": "Para mejorar la experiencia del usuario al utilizar la aplicacion de Alquileres Temporales, desarrollé un sitio web que proporciona información detallada sobre el programa, sus casos de uso y su funcionamiento.",
     "deploy": "https://alquilerestemporarios.netlify.app/",
     "source": "https://github.com/pato-1441/alquileresTemporales"
   }
