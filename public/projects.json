@@ -43,5 +43,40 @@
     "desc": "Para mejorar la experiencia del usuario al utilizar la aplicacion de Alquileres Temporales, desarrollé un sitio web que proporciona información detallada sobre el programa, sus casos de uso y su funcionamiento.",
     "deploy": "https://alquilerestemporarios.netlify.app/",
     "source": "https://github.com/pato-1441/alquileresTemporales"
+  },
+  {
+    "id": "6",
+    "imageSrc": "./bornozShows.webp",
+    "title": "Bornoz Shows",
+    "stack": ["React.js", "Firebase", "Tailwind", "DaisyUI", "Vite"],
+    "desc": "Para mejorar la experiencia del usuario al utilizar la aplicacion de Alquileres Temporales, desarrollé un sitio web que proporciona información detallada sobre el programa, sus casos de uso y su funcionamiento.",
+    "deploy": "https://alquilerestemporarios.netlify.app/",
+    "source": "https://github.com/pato-1441/alquileresTemporales"
+  },
+  {
+    "id": "7",
+    "imageSrc": "./bornozFly.webp",
+    "title": "Bornoz Fly",
+    "stack": [
+      "Node.js",
+      "Nginx",
+      "Express",
+      "MongoDB",
+      "Socket.IO",
+      "Handlebars",
+      "Tailwind",
+      "DaisyUI"
+    ],
+    "desc": "Bornoz Fly es un proyecto de vuelos en línea construido con Node.js y Express. Permite explorar ofertas, buscar pasajes y comprar vuelos de manera fácil. Algunas tecnologías clave son Express para el desarrollo web, MongoDB y Mongoose para la base de datos, y bcrypt para la seguridad de contraseñas.\n\nTwilio y Nodemailer se utilizan para notificar a los usuarios por mensaje y correo electrónico, mientras que Passport garantiza la autenticación segura. La interfaz visual atractiva se crea con Tailwind CSS + daisyUI y animaciones con AOS. Nginx mejora el rendimiento y Pino brinda un registro detallado.\n\nPara mantener a los usuarios actualizados en tiempo real sobre disponibilidad y precios, se emplea Socket.IO. Bornoz Fly busca hacer que la búsqueda y reserva de vuelos en línea sean simples y seguras, ofreciendo una experiencia intuitiva respaldada por tecnologías modernas.",
+    "source": "https://github.com/pato-1441/alquileresTemporales"
+  },
+  {
+    "id": "8",
+    "imageSrc": "./alquileresWeb.webp",
+    "title": "Alquileres Temporales Web",
+    "stack": ["HTML", "Tailwind"],
+    "desc": "Para mejorar la experiencia del usuario al utilizar la aplicacion de Alquileres Temporales, desarrollé un sitio web que proporciona información detallada sobre el programa, sus casos de uso y su funcionamiento.",
+    "deploy": "https://alquilerestemporarios.netlify.app/",
+    "source": "https://github.com/pato-1441/alquileresTemporales"
   }
 ]

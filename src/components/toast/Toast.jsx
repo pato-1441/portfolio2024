@@ -3,6 +3,8 @@ const Toast = ({ tech }) => {
     switch (tech) {
       case "C#":
         return "bg-blue-600 text-white";
+      case "DaisyUI":
+        return "bg-gray-100 text-amber-700";
       case ".NET":
         return "bg-purple-700 text-white";
       case "Winforms":
@@ -16,13 +18,21 @@ const Toast = ({ tech }) => {
       case "React.js":
         return "bg-cyan-300 text-black";
       case "Node.js":
-        return "bg-lime-400 text-white";
+        return "bg-lime-600 text-white";
+      case "Nginx":
+        return "bg-green-700 text-white";
+      case "Vite":
+        return "bg-purple-700 text-amber-400";
       case "SCSS":
         return "bg-rose-500 text-white";
+      case "Handlebars":
+        return "bg-amber-700 text-white";
+      case "Socket.IO":
+        return "bg-black text-white";
       case "SASS":
         return "bg-rose-500 text-white";
       case "Firebase":
-        return "bg-yellow-300 text-white";
+        return "bg-yellow-500 text-orange-900";
       case "MongoDB":
         return "bg-green-500 text-white";
       case "Express":

@@ -5,13 +5,13 @@ const Card = ({ imageSrc, title, stack, desc, deploy, source }) => {
     <div className="flex h-full flex-col rounded-xl border border-white">
       <img
         src={imageSrc}
-        alt="project image"
-        className="flex rounded-t-xl w-full h-52 min-h-52 max-h-52"
+        alt={title + " project image"}
+        className="flex rounded-t-xl w-full"
       />
       <div className="p-4 flex flex-col justify-between gap-2 bg-neutral-900 rounded-b-xl h-full">
         <div className="flex flex-col gap-2">
           <p className="font-medium text-xl">{title}</p>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             {stack.map((tech, index) => (
               <Toast tech={tech} key={index} />
             ))}
