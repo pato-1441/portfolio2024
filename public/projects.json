@@ -40,7 +40,7 @@
     "imageSrc": "./alquileresWeb.webp",
     "title": "Alquileres Temporales Web",
     "stack": ["HTML", "Tailwind"],
-    "desc": "Para mejorar la experiencia del usuario al utilizar la aplicacion de Alquileres Temporales, desarrollé un sitio web que proporciona información detallada sobre el programa, sus casos de uso y su funcionamiento.",
+    "desc": "Para mejorar la experiencia del usuario al utilizar la aplicacion de Alquileres Temporales, desarrollé un sitio web que proporciona información detallada sobre el programa, sus casos de uso y su funcionamiento.\n\nAdemas de una sección donde podemos encontrar mas información acerca de quienes realizamos la aplicación.",
     "deploy": "https://alquilerestemporarios.netlify.app/",
     "source": "https://github.com/pato-1441/alquileresTemporales"
   },
@@ -49,7 +49,7 @@
     "imageSrc": "./bornozShows.webp",
     "title": "Bornoz Shows",
     "stack": ["React.js", "Firebase", "Tailwind", "DaisyUI", "Vite"],
-    "desc": "Para mejorar la experiencia del usuario al utilizar la aplicacion de Alquileres Temporales, desarrollé un sitio web que proporciona información detallada sobre el programa, sus casos de uso y su funcionamiento.",
+    "desc": "Bornoz Shows es una SPA desarrollada con React que te permite comprar entradas para diferentes espectáculos.\n\nPuedes filtrar las entradas por categorías, verificar su disponibilidad y generar órdenes de compra instantáneas. La aplicación utiliza Firestore, una base de datos de documentos NoSQL en la nube, para almacenar y recuperar datos. Además, Bornoz Shows utiliza Tailwind y daisyUI para diseñar la interfaz de usuario. La aplicación también utiliza Vite para compilar y construir el proyecto.\n\nEn cuanto a las características, Bornoz Shows se conecta a una base de datos en la nube Firestore, permite filtrar las entradas por categorías, posee enrutado dinámico, realiza validación de stock, genera órdenes instantáneas.",
     "deploy": "https://bornozshows.netlify.app/",
     "source": "https://github.com/pato-1441/bornozShows"
   },
@@ -83,7 +83,7 @@
     "id": "9",
     "imageSrc": "./searchSynonyms.webp",
     "title": "Search Synonyms",
-    "stack": ["React.js", "Typescript", "HTML", "Tailwind"],
+    "stack": ["React.js", "Typescript", "HTML", "Tailwind", "Vite"],
     "desc": "En este caso, se ha desarrollado una aplicación que utiliza React y TypeScript para ayudarnos a encontrar sinónimos de una palabra dada. La aplicación utiliza la API de Datamuse para obtener los resultados.\n\nDatamuse es un motor de búsqueda de palabras que permite a los desarrolladores encontrar palabras que cumplan con ciertas restricciones. La API de Datamuse es muy útil para aplicaciones que requieren autocompletado en campos de entrada de texto, juegos de palabras, aplicaciones de escritura asistida y mucho más.\n\nLa aplicación que se ha desarrollado utiliza React y TypeScript para crear una interfaz de usuario moderna y fácil de usar. Los usuarios pueden ingresar una palabra y la aplicación buscará sinónimos de esa palabra utilizando la API de Datamuse. Los resultados se muestran en la pantalla y el usuario puede seleccionar el sinónimo que mejor se adapte a sus necesidades.",
     "deploy": "https://searchsynonyms.netlify.app/",
     "source": "https://github.com/pato-1441/searchSynonyms"
