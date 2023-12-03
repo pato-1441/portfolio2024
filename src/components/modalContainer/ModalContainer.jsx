@@ -23,12 +23,9 @@ const ModalContainer = () => {
         <FileText size={22} />
       </button>
       <Modal isOpen={isModalOpen} onClose={closeModal}>
-        <div>
-          <h2>Currículum</h2>
-          <p>pdf</p>
-        </div>
+        <div>asd</div>
         <button
-          className="flex w-fit items-center transition-all duration-150 text-base font-medium px-2 py-1 rounded-lg text-black bg-white border border-white hover:shadow-black hover:shadow-button"
+          className="flex w-fit items-center transition-all duration-150 text-base font-medium px-3 py-2 rounded-lg drop-shadow-lg text-white bg-black border border-white hover:shadow-white hover:shadow-button"
           onClick={closeModal}
         >
           Cerrar Modal
