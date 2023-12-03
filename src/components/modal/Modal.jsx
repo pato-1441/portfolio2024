@@ -1,16 +1,18 @@
+import { XCircle } from "lucide-react";
+
 const Modal = ({ isOpen, onClose, children }) => {
   if (!isOpen) {
     return null;
   }
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full bg-slate-50 flex justify-center items-center">
-      <div className="bg-white p-20 rounded-lg">
+    <div className="text-black fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 h-5/6 sm:w-3/4 sm:h-3/4 flex justify-center items-center rounded-xl shadow-black drop-shadow-lg">
+      <div className="flex flex-col w-full h-full py-16 bg-white rounded-lg items-center justify-between">
         <button
-          className="absolute top-10 right-10 cursor-pointer text-base text-black"
+          className="absolute top-5 right-5 sm:top-10 sm:right-10 cursor-pointer text-base text-black"
           onClick={onClose}
         >
-          X
+          <XCircle />
         </button>
         {children}
       </div>

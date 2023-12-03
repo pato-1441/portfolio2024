@@ -2,7 +2,7 @@ import { Github, Linkedin } from "lucide-react";
 
 const Nav = () => {
   return (
-    <header className="fixed left-0 right-0 top-0 flex w-full justify-center bg-white px-4 dark:bg-black sm:sticky sm:px-0">
+    <header className="fixed left-0 right-0 top-0 flex w-full justify-center bg-white px-4 dark:bg-black sm:sticky sm:px-0 z-10">
       <nav className="flex h-20 w-full max-w-[1400px] items-center justify-between">
         <div className="flex items-center gap-4">
           <h1 className="font-semibold flex gap-2 items-center">
