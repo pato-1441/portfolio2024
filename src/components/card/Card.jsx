@@ -3,11 +3,13 @@ import Toast from "../toast/Toast";
 const Card = ({ imageSrc, title, stack, desc, deploy, source }) => {
   return (
     <div className="flex h-full flex-col rounded-xl border border-white">
-      <img
-        src={imageSrc}
-        alt={title + " project image"}
-        className="flex rounded-t-xl w-full"
-      />
+      <div className="h-64">
+        <img
+          src={imageSrc}
+          alt={title + " project image"}
+          className="flex rounded-t-xl w-full h-full"
+        />
+      </div>
       <div className="p-4 flex flex-col justify-between gap-2 bg-neutral-900 rounded-b-xl h-full">
         <div className="flex flex-col gap-2">
           <p className="font-medium text-xl">{title}</p>
