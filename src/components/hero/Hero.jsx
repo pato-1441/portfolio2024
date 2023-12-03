@@ -1,4 +1,4 @@
-import ModalContainer from "../ModalContainer/ModalContainer";
+import { FileText } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -12,7 +12,16 @@ const Hero = () => {
         dictada por la Universidad Tecnológica Nacional.
       </p>
       <div className="mt-2">
-        <ModalContainer />
+        <a
+          href="/CurriculumAlbornozPatricio.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+          className="flex w-fit items-center gap-2 transition-all duration-150 sm:text-base font-medium px-4 py-2 rounded-xl text-black bg-white hover:shadow-black hover:shadow-button hover:scale-105 hover:-rotate-2"
+        >
+          Currículum
+          <FileText size={22} />
+        </a>
       </div>
     </section>
   );
