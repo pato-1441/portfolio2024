@@ -15,7 +15,7 @@ const Nav = () => {
         </div>
         <div className="flex items-center gap-4">
           <a
-            className="transition-all duration-150 hover:scale-105 text-sm py-1 px-3 rounded-full border border-white hover:shadow-white hover:shadow-button"
+            className="transition-all duration-150 hover:scale-105 text-sm py-1 px-3 rounded-full border border-black dark:border-white hover:shadow-black dark:hover:shadow-white hover:shadow-button"
             href="mailto:pwalbornoz@gmail.com"
             rel="noreferrer noopener"
           >
@@ -26,14 +26,20 @@ const Nav = () => {
             rel="noopener noreferrer"
             href="https://github.com/pato-1441"
           >
-            <Github size={22} className="hover:fill-white" />
+            <Github
+              size={22}
+              className="hover:fill-black dark:hover:fill-white"
+            />
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/patoalbornoz/"
           >
-            <Linkedin size={22} className="hover:fill-white" />
+            <Linkedin
+              size={22}
+              className="hover:fill-black dark:hover:fill-white"
+            />
           </a>
         </div>
       </nav>

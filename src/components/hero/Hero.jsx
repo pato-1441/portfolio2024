@@ -17,7 +17,7 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
           download
-          className="flex w-fit items-center gap-2 transition-all duration-150 sm:text-base font-medium px-4 py-2 rounded-xl text-black bg-white hover:shadow-black hover:shadow-button hover:scale-105 hover:-rotate-2"
+          className="flex w-fit items-center gap-2 transition-all duration-150 sm:text-base font-medium px-4 py-2 rounded-xl text-white dark:text-black bg-black dark:bg-white hover:shadow-white dark:hover:shadow-black hover:shadow-button hover:scale-105 hover:-rotate-2"
         >
           Currículum
           <FileText size={22} />
