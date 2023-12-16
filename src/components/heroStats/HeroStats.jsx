@@ -4,20 +4,29 @@ import StatCard from "../statCard/StatCard";
 const HeroStats = () => {
   return (
     <div
-      className="transition-all duration-150 sm:w-1/2 flex justify-between items-center gap-2 px-4 sm:px-6 py-4
-     h-fit border border-white border-opacity-30 rounded-xl hover:shadow-white hover:shadow-component"
+      className="sm:w-1/2 flex flex-col sm:flex-row justify-between items-center
+     h-fit "
     >
-      <div className="flex items-center">
+      <div
+        className="transition-all duration-150 hover:shadow-white hover:shadow-component flex items-center sm:gap-8
+        justify-between w-full border rounded-l-xl px-5 py-4"
+      >
         <StatCard qty={"+3"} title={"Años\nprogramando"} />
-        <TerminalSquare />
+        <TerminalSquare className="w-9 h-9" />
       </div>
-      <div className="flex items-center">
+      <div
+        className="transition-all duration-150 hover:shadow-white hover:shadow-component flex items-center sm:gap-8
+        justify-between w-full border-t border-b px-5 py-4"
+      >
         <StatCard qty={"+15"} title={"Tecnologías\nempleadas"} />
-        <Braces />
+        <Braces className="w-9 h-9" />
       </div>
-      <div className="flex items-center">
+      <div
+        className="transition-all duration-150 hover:shadow-white hover:shadow-component flex items-center sm:gap-8
+        justify-between w-full border rounded-r-xl px-5 py-4"
+      >
         <StatCard qty={"+10"} title={"Proyectos\nconcluidos"} />
-        <BadgeCheck />
+        <BadgeCheck className="w-9 h-9" />
       </div>
     </div>
   );
