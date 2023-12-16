@@ -3,7 +3,7 @@ import HeroPresentation from "../heroPresentation/HeroPresentation";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col gap-10 sm:flex-row sm:justify-between">
+    <section className="flex flex-col gap-12 sm:flex-row sm:justify-between sm:items-center">
       <HeroPresentation />
       <HeroStats />
     </section>
