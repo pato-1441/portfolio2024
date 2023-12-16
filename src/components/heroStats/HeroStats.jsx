@@ -16,7 +16,7 @@ const HeroStats = () => {
       </div>
       <div
         className="text-black bg-gray-50 dark:bg-neutral-900 dark:text-white transition-all duration-150 hover:shadow-black dark:hover:shadow-white hover:shadow-component flex items-center sm:gap-8
-        justify-between w-full border-l border-r sm:border-l-none sm:border-r-none sm:border-t sm:border-b px-6 py-4"
+        justify-between w-full border-l border-r sm:border-r-0 sm:border-l-0 sm:border-t sm:border-b  px-6 py-4"
       >
         <StatCard qty={"+15"} title={"Tecnologías\nempleadas"} />
         <Braces className="w-9 h-9" />
