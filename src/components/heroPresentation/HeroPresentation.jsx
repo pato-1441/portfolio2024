@@ -1,6 +1,6 @@
 import { FileText } from "lucide-react";
 
-const HeroPresentation = () => {
+const HeroPresentation = ({ showModalCV }) => {
   return (
     <div className="sm:w-1/2 flex flex-col gap-2">
       <h2 className="text-2xl sm:text-3xl font-medium">
@@ -13,11 +13,9 @@ const HeroPresentation = () => {
       </p>
       <div className="mt-2">
         <a
-          href="/CurriculumAlbornozPatricio.pdf"
-          target="_blank"
+          onClick={showModalCV}
           rel="noopener noreferrer"
-          download
-          className="flex w-fit items-center gap-1 sm:gap-2 transition-all duration-150 sm:text-base font-medium px-2.5 sm:px-4 py-2 rounded-xl text-white dark:text-black bg-black dark:bg-white hover:shadow-white dark:hover:shadow-black hover:shadow-button hover:scale-105 hover:-rotate-2"
+          className="hover:cursor-pointer flex w-fit items-center gap-1 sm:gap-2 transition-all duration-150 sm:text-base font-medium px-2.5 sm:px-4 py-2 rounded-xl text-white dark:text-black bg-black dark:bg-white hover:shadow-white dark:hover:shadow-black hover:shadow-button hover:scale-105 hover:-rotate-2"
         >
           Currículum
           <FileText size={22} />
