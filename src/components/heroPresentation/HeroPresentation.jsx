@@ -2,14 +2,14 @@ import { FileText } from "lucide-react";
 
 const HeroPresentation = ({ showModalCV }) => {
   return (
-    <div className="sm:w-1/2 flex flex-col gap-2">
+    <div className="sm:w-2/3 flex flex-col gap-2">
       <h2 className="text-2xl sm:text-3xl font-medium">
-        Hola! soy Patricio Albornoz
+        Hola, soy Patricio Albornoz
       </h2>
       <p className="text-4xl sm:text-5xl font-semibold">Fullstack Developer</p>
       <p className="text-lg sm:text-2xl sm:w-2/3 sm:leading-tight">
-        Estudiante avanzado de la Tecnicatura Universitaria en Programación
-        dictada por la Universidad Tecnológica Nacional.
+        Especializado en JavaScript, React, Node, Express, C#. Finalizando
+        Tecnicatura Universitaria en Programación.
       </p>
       <div className="mt-2">
         <a
