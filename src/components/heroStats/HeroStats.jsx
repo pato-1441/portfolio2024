@@ -3,7 +3,7 @@ import StatCard from "../statCard/StatCard";
 
 const HeroStats = () => {
   return (
-    <div className="sm:w-full h-fit ">
+    <div className="sm:w-1/3 h-fit ">
       <div
         className="text-black bg-gray-50 dark:bg-neutral-900 dark:text-white transition-all duration-150 hover:shadow-black dark:hover:shadow-white hover:shadow-component flex items-center sm:gap-8
         justify-between w-full border rounded-xl rounded-b-none px-6 py-4"
